@@ -3,7 +3,7 @@
 ※ 1Q to 3Q University Capstone Project of 2019.
 
 FOPO를 위한 PHP 기반의 웹 프레임워크입니다.<br><br>
-기존의 MVC(Model-View-Controller) 모델을 바탕으로 설계하였으며, PC 및 모바일 환경을 분리하여 제공하도록 설계하였습니다.<br><br>
+기존의 MVC(Model-View-Controller) 모델을 바탕으로한 CVP(Core-View-Process) 모델을 바탕으로 설계하였으며, PC 및 모바일 환경을 분리하여 제공하도록 설계하였습니다.<br><br>
 
 Server에 최초 설치시, 아래의 서버 권장 사양에 맞춰서 해주시면 되며,<br>
 Server 환경 설정값은 system 디렉토리의 fopo_sys_config.php 파일에 추가하여 주세요.

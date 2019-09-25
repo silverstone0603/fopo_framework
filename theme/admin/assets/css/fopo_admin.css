@@ -1,0 +1,377 @@
+/*
+	FOPO Default Theme
+	designed by EunSeok Oh.
+
+	Copyright (C) FOPO Team, All rights reserved.
+*/
+
+/*
+Filter styles
+
+.saturate {-webkit-filter: saturate(3); filter: saturate(3);}
+.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.contrast {-webkit-filter: contrast(160%); filter: contrast(160%);}
+.brightness {-webkit-filter: brightness(0.25); filter: brightness(0.25);}
+.blur {-webkit-filter: blur(3px); filter: blur(3px);}
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
+.sepia {-webkit-filter: sepia(100%); filter: sepia(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg); filter: hue-rotate(180deg);}
+.rss.opacity {-webkit-filter: opacity(50%); filter: opacity(50%);}
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "malgun";
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+img{
+	border: 0px;
+	vertical-align:middle;
+}
+
+.wrap_admin{
+	position: relative;
+	margin: 0 auto 0;
+	padding: 30px 0 0 0 ;
+	width: 100%;
+	min-width: 1000px;
+	max-width: 1400px;
+	min-height: 700px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.wrap_admin .logo{
+	position: relative;
+	margin: 0 auto 0;
+	padding: 0 0 0 0;
+	width: 50%;
+	height: 75px;
+	color: #000000;
+	text-align: center;
+}
+
+
+.wrap_admin .title{
+	position: static;
+	margin: 0 auto 0;
+	padding: 20px 0 0 0;
+	width: 50%;
+	min-width: 500px;
+	height: 75px;
+	color: #000000;
+}
+
+.wrap_admin .title span{
+	font-size: 16pt;
+	font-weight: bold;
+	background: linear-gradient(to right, #ff33ff, #800080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 1px 1px 10px #ffe6ff;
+	-webkit-text-shadow: 1px 1px 10px #ffe6ff;
+	-moz-text-shadow: 1px 1px 10px #ffe6ff;
+}
+input[type=button] {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+}
+
+input[type=button]:hover {
+	background: none;
+	color: #fff;
+	-webkit-text-fill-color: #fff;
+}
+.myinfo_ta > tr > td > input , .zoneinfo_ta > tr > td > input {
+	width: 250px;
+    height: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+	border-radius:5px;
+    border: 1px solid rgba(255, 51, 255, 0.5);
+}
+.myinfo_ta > tr > td > input:focus, .zoneinfo_ta > tr > td > input:focus{
+   background-color : rgba(236, 162, 236, 0.5);
+}
+.f_r{
+float : right;
+}
+.f_l{
+float : left;
+}
+
+.wrap_admin .contents{
+	position: static;
+	margin: 0 auto 0;
+	padding: 0;
+	width: 50%;
+	height: auto;
+	min-width: 500px;
+	min-height: 350px;
+	color: #000000;
+}
+
+/*
+	Navigation Menu
+*/
+.wrap_admin .nav{
+	position: absolute;
+	width: 20%;
+}
+
+.wrap_admin .logo{
+	width:100%;
+	height:200px;
+	text-align: center;
+}
+
+.wrap_admin .nav_menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.wrap_admin .nav_menu li{
+	margin-bottom:1px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: #FDEFFE;
+	border-bottom: 1px solid #d0d0d0;
+}
+.wrap_admin .nav_menu li a{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #000000;
+}
+.wrap_admin .nav_menu li a img{
+	width: 30px;
+	height: 30px;
+	padding-right: 5px;
+	filter: brightness(0.0);
+}
+.wrap_admin .nav_menu li:hover{
+	background-color: #ff33ff;
+}
+
+.wrap_admin .nav_menu li:hover a{
+	color: #ffffff;
+}
+
+.wrap_admin .nav_menu li:hover img{
+-webkit-filter: brightness(100);
+-webkit-filter: contrast(1);
+}
+
+/*
+	Contents Wrap
+*/
+.wrap_admin .contents{
+	width:100%;
+	height:100%;
+}
+.wrap_admin .userinfo{
+
+	float:right;
+}
+/*
+.wrap_admin .userinfo a{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #000000;
+}*/
+.wrap_admin .userinfo img{
+    vertical-align: middle;
+}
+.wrap_admin .main{
+	width:80%;
+	margin-left:22%;
+}
+.wrap_admin .main_1{
+	height:20%;
+}
+.wrap_admin .main_2{
+	width:100%;
+	height:40%;
+}
+.wrap_admin .main_3{
+	padding-bottom: 50px;
+}
+
+.wrap_admin .title_new{
+	margin: 0;
+	padding: 5px 0 5px 0;
+}
+
+.wrap_admin b{
+	color:#959595;
+	font-weight:700;
+}
+.wrap_admin .main_1 .arrow{
+	vertical-align:middle;
+	width:40px;
+	height:40px;
+}
+.wrap_admin #map_google{
+	width:95%;
+	height:500px;
+}
+
+.wrap_admin_map #map_google_full{
+	width:100%;
+	height:100%;
+}
+
+.wrap_admin .slider img{
+	width:225px;
+	height:150px;
+}
+.wrap_admin .Thum img {
+	width:180px;
+	height:180px;
+}
+.Thumbnail{
+	height: 180px;
+	margin: 10px auto auto 10px;
+}
+
+.wrap_admin .btnNext{
+	padding-left: 25px;
+	padding-top: 6px;
+	height: 30px;
+	background-size: 20px 20px;
+	background-position: left center;
+	vertical-align: middle;
+}
+
+/*
+	Contents Table Part
+*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #fdd9ff;
+}
+
+table th, table td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #fdd9ff;
+	text-align: center;
+}
+table th {
+	width:10%;
+	background-color: #fff7ff;
+}
+table tr {
+	background-color: #fff7ff;
+}
+table tr:hover{
+	background-color: #fdd9ff;
+}
+.zoneinfo_ta{
+	width:420px;
+}
+.zoneinfo_ta th{
+	width:100px;
+	border-right: 1px solid #fdd9ff;
+}
+.myinfo_ta{
+	width:420px; 
+}
+.myinfo_ta th{
+	width:100px;
+	border-right: 1px solid #fdd9ff;
+}
+.info_ta{
+	width:500px;
+}
+.info_ta th{
+	width:150px;
+	border-right: 1px solid #fdd9ff;
+}
+.noticeinfo_ta{
+	width:100%;
+}
+.noticeinfo_ta td input,.noticeinfo_ta td textarea{
+	width: 100%;
+    height: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 51, 255, 0.5);
+}
+.noticeinfo_ta td textarea{
+    height: 300px;
+}
+.noticeinfo_ta td input[type=button]{
+	padding: 0;
+	width: 100px;
+}
+.noticeinfo_ta td input[type=file]{
+	padding: 0;
+	border:none;
+}
+.noticeinfo_ta th{
+	width:150px;
+	border-right: 1px solid #fdd9ff;
+}
+.nav_top_menu {
+	height: 50px;
+	width: 1400px;
+}
+.nav_top_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav_top_menu ul li {
+	list-style: none;
+	color: white;
+	background-color: #fff7ff;
+	float: left;
+	width: 233px;
+	line-height: 50px;
+	border-top: 1px solid #fdd9ff;
+	border-bottom: 1px solid #fdd9ff;
+	border-left: 0;
+	border-right: 0;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+.nav_top_menu ul li:first-child {
+	border-left: 1px solid #fdd9ff;
+}
+.nav_top_menu ul li:last-child {
+	border-right: 1px solid #fdd9ff;
+}
+.nav_top_menu .menuLink {
+	text-decoration:none;
+	color: black;
+	display: block;
+	width: 100%;
+	font-size: 19px;
+	font-weight: bold; 
+	font-family: "Trebuchet MS", Dotum, Arial;
+	
+	}
+.nav_top_menu li a:hover{
+	background-color: #fdd9ff;
+}
+
+.google_map {
+	float:left;
+	width:350px;
+	height:370px;
+	margin-right:20px;
+}
+.abc {
+	width:500px
+	height:300px
+}
+.red{
+	color : red;
+}

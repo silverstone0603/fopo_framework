@@ -1,0 +1,90 @@
+/*
+	FOPO Default Theme
+	designed by EunSeok Oh.
+
+	Copyright (C) FOPO Team, All rights reserved.
+*/
+
+a:link { color: #ff33ff; text-decoration: none;}
+a:visited { color: #ff33ff; text-decoration: none;} 
+a:hover { color: #800080; text-decoration: none;}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "malgun";
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+.fopo_wrap{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.fopo_wrap .logo{
+	position: static;
+	margin: 0 auto 0;
+	padding: 100px 0 0 0;
+	width: 50%;
+	min-width: 500px;
+	height: 75px;
+	color: #000000;
+}
+
+
+.fopo_wrap .title{
+	position: static;
+	margin: 0 auto 0;
+	padding: 20px 0 0 0;
+	width: 50%;
+	min-width: 500px;
+	height: 75px;
+	color: #000000;
+}
+
+.fopo_wrap .title span{
+	font-size: 16pt;
+	font-weight: bold;
+	background: linear-gradient(to right, #ff33ff, #800080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 1px 1px 10px #ffe6ff;
+	-webkit-text-shadow: 1px 1px 10px #ffe6ff;
+	-moz-text-shadow: 1px 1px 10px #ffe6ff;
+}
+input[type=button] {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+}
+
+input[type=button]:hover {
+	background: none;
+	color: #fff;
+	-webkit-text-fill-color: #fff;
+}
+
+.fopo_wrap .contents{
+	position: static;
+	margin: 0 auto 0;
+	padding: 0;
+	width: 50%;
+	height: auto;
+	min-width: 500px;
+	min-height: 350px;
+	color: #000000;
+}
+
+.footer_wrap{
+	position: absolute;
+	margin: 0 auto 0;
+	padding: 5px;
+	width: 75%;
+	height: 50px;
+	min-width: 500px;
+	color: #000000;
+}
